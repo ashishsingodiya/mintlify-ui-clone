@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    border: 0 solid;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    left: 0;
+}
+
+.header-inner {
+    max-width: 66rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 10.5rem;
+    font-size: 15px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 15px;
+    justify-content: flex-end;
+}
+
+.logo-icon {
+    height: 24px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 0.25rem;
+}
+
+.nav-menu li {
+    padding: 0.25rem 0.75rem;
+    text-decoration: none;
+    line-height: 22.5px;
+}
+
+.nav-menu li a {
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #fff;
+    padding: 4.5px 12px;
+    border-radius: 200px;
+    line-height: 22.5px;
+}
+
+.btn-contact {
+    background-color: #ffffff0a;
+    color: #fff;
+    padding: 4.5px 12px;
+    border-radius: 200px;
+    line-height: 22.5px;
+}
+
+
+.hero-section {
+   position: relative;
+   height: 1145px;
+}
+
+
+.bg-image-hero {
+    background-image: url(/assets/images/hero/bg-light.svg);
+
+    z-index: -1;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -94px;
+    mask-image: linear-gradient(#000 0%,rgba(0,0,0,.99) 18.5%,rgba(0,0,0,.953) 34.3%,rgba(0,0,0,.894) 47.6%,rgba(0,0,0,.824) 58.5%,rgba(0,0,0,.74) 67.5%,rgba(0,0,0,.647) 74.7%,rgba(0,0,0,.55) 80.3%,rgba(0,0,0,.45) 84.7%,rgba(0,0,0,.353) 88%,rgba(0,0,0,.26) 90.5%,rgba(0,0,0,.176) 92.5%,rgba(0,0,0,.106) 94.2%,rgba(0,0,0,.047) 95.9%,rgba(0,0,0,.01) 97.7%,transparent 100%);
+}
