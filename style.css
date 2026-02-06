@@ -95,7 +95,7 @@ a {
 }
 
 .backdrop-blur {
-  backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
 }
 
 
@@ -142,4 +142,27 @@ a {
 .pill-text {
     font-size: 14px;
     line-height: 21px;
+}
+
+.hero-title {
+    color: #fff;
+    font-size: 58.8px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 67.62px;
+    text-wrap-mode: wrap;
+    max-width: 43rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 45px;
+}
+
+.hero-subtitle {
+    color: #fff;
+    margin-top: 24px;
+    font-size: 18px;
+    line-height: 27px;
+    max-width: 29.5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
