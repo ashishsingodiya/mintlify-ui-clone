@@ -21,6 +21,7 @@ a {
     top: 0px;
     right: 0;
     left: 0;
+    z-index: 10;
 }
 
 .header-inner {
@@ -76,21 +77,25 @@ a {
     border: 1px solid #fff;
     padding: 4.5px 12px;
     border-radius: 200px;
-    line-height: 22.5px;
 }
 
 .btn-contact {
-    background-color: #ffffff0a;
+    background-color: #ffffff0d;
     color: #fff;
+    line-height: 20px;
     padding: 4.5px 12px;
     border-radius: 200px;
-    line-height: 22.5px;
+    /* line-height: 22.5px; */
 }
 
 
 .hero-section {
     position: relative;
     height: 1145px;
+}
+
+.backdrop-blur {
+  backdrop-filter: blur(16px);
 }
 
 
