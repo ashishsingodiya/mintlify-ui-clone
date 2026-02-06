@@ -3,6 +3,7 @@
     border: 0 solid;
     margin: 0;
     padding: 0;
+    -webkit-font-smoothing: antialiased;
 }
 
 body {
@@ -31,6 +32,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     height: 100%;
+    font-weight: 500;
 }
 
 .header-left {
@@ -87,15 +89,15 @@ a {
 
 
 .hero-section {
-   position: relative;
-   height: 1145px;
+    position: relative;
+    height: 1145px;
 }
 
 
 .bg-image-hero {
     background-image: url(/assets/images/hero/bg-light.svg);
 
-    z-index: -1;
+    z-index: -10;
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -103,5 +105,36 @@ a {
     height: 100%;
     position: absolute;
     top: -94px;
-    mask-image: linear-gradient(#000 0%,rgba(0,0,0,.99) 18.5%,rgba(0,0,0,.953) 34.3%,rgba(0,0,0,.894) 47.6%,rgba(0,0,0,.824) 58.5%,rgba(0,0,0,.74) 67.5%,rgba(0,0,0,.647) 74.7%,rgba(0,0,0,.55) 80.3%,rgba(0,0,0,.45) 84.7%,rgba(0,0,0,.353) 88%,rgba(0,0,0,.26) 90.5%,rgba(0,0,0,.176) 92.5%,rgba(0,0,0,.106) 94.2%,rgba(0,0,0,.047) 95.9%,rgba(0,0,0,.01) 97.7%,transparent 100%);
+    mask-image: linear-gradient(#000 0%, rgba(0, 0, 0, .99) 18.5%, rgba(0, 0, 0, .953) 34.3%, rgba(0, 0, 0, .894) 47.6%, rgba(0, 0, 0, .824) 58.5%, rgba(0, 0, 0, .74) 67.5%, rgba(0, 0, 0, .647) 74.7%, rgba(0, 0, 0, .55) 80.3%, rgba(0, 0, 0, .45) 84.7%, rgba(0, 0, 0, .353) 88%, rgba(0, 0, 0, .26) 90.5%, rgba(0, 0, 0, .176) 92.5%, rgba(0, 0, 0, .106) 94.2%, rgba(0, 0, 0, .047) 95.9%, rgba(0, 0, 0, .01) 97.7%, transparent 100%);
+}
+
+.hero-content {
+    height: 100px;
+    text-align: center;
+    padding: 95px;
+}
+
+.hero-pill {
+    color: #fff;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #00000026;
+    padding: 4px 8px 4px 4px;
+    border-radius: 100px;
+}
+
+.pill-badge {
+    font-size: 12px;
+    line-height: 18px;
+    background-color: #0c8c5e;
+    padding: 2px 8px;
+    border-radius: 50px;
+}
+
+.pill-text {
+    font-size: 14px;
+    line-height: 21px;
 }
