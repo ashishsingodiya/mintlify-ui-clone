@@ -100,7 +100,7 @@ a {
 
 
 .bg-image-hero {
-    background-image: url(/assets/images/hero/bg-light.svg);
+    background-image: url(./assets/images/hero/bg-light.svg);
 
     z-index: -10;
     background-position: 50%;
